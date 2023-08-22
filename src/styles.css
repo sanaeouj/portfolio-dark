@@ -1,0 +1,145 @@
+body {
+  font-family: "Nunito Sans", sans-serif;
+  background-color: black;
+  color: white;
+  margin: 50px;
+}
+
+.navbar {
+  padding: 20px;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  color: white;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: 100px;
+}
+
+.sections {
+  padding: 20px;
+  display: flex;
+  gap: 40px;
+}
+
+.section {
+  cursor: pointer;
+}
+
+.button {
+  background-color: white;
+  color: black;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+#Kartin {
+  font-size: 40px;
+  background: linear-gradient(to right, #ff00f2c2, #ff9100);
+  -webkit-background-clip: text;
+  color: transparent;
+  background-clip: text; /* Pour la compatibilité avec les navigateurs modernes */
+  display: inline-block; /* Assurez-vous que le dégradé s'applique correctement */
+  font-weight: 900;
+}
+#Hey {
+  font-size: 40px;
+}
+.container {
+  display: flex;
+  margin-top: 100px;
+}
+#hero {
+  width: 40%;
+  font-size: 36px;
+  font-weight: bold;
+}
+#hero1 {
+  margin-top: 50px;
+  width: 60%;
+  margin-left: 150px;
+  margin-right: 0;
+  font-size: 20px;
+}
+.social-icons {
+  display: flex;
+  gap: 30px; /* Espacement entre les icônes */
+}
+
+.icon {
+  display: inline-block;
+  font-size: 30px; /* Taille de l'icône */
+  color: rgb(202, 8, 228); /* Couleur par défaut de l'icône */
+  transition: color 0.3s; /* Transition de couleur au survol */
+}
+
+.icon:hover {
+  color: #0077b5; /* Couleur au survol */
+}
+
+.twitter:hover {
+  color: #1da1f2;
+}
+
+.instagram:hover {
+  color: #e4405f;
+}
+#image {
+  width: 80%;
+  margin: 50px 160px 50px 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+#selection1 {
+  margin: 0 150px 0 150px;
+}
+#image1 {
+  width: 250vh;
+}
+#diplome {
+  margin: 200px 0 100px 0;
+  display: flex;
+  justify-content: space-around;
+}
+#centre {
+  margin-left: 35%;
+}
+#logos {
+  display: flex;
+  justify-content: space-around;
+}
+#logos img {
+  margin: 40px;
+  display: inline-block;
+}
+#photo {
+  margin-top: 100px;
+  margin-left: 32%;
+  background-color: blanchedalmond;
+  width: 500px;
+  position: relative;
+}
+#photos {
+  background-color: #ffffff;
+  color: rgb(24, 7, 7);
+  width: 400px;
+  height: 290px;
+  position: absolute;
+  top: 28%;
+  left: 100%;
+}
+
+.icon1 {
+  font-size: 30px; /* Taille de l'icône */
+  color: black; /* Couleur par défaut de l'icône */
+  transition: color 0.3s; /* Transition de couleur au survol */
+  margin: 30px;
+}
